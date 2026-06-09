@@ -9,7 +9,7 @@ touch src/prompt.py
 touch .env
 touch setup.py
 touch app.py
-touch research/trials.ipynb
+touch research/experiments.ipynb
 touch requirements.txt
 
 echo "Directory and files created."
