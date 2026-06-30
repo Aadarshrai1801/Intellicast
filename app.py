@@ -33,7 +33,6 @@ retriever = docsearch.as_retriever(
 chat_model = ChatGroq(
     model="llama-3.3-70b-versatile",
     api_key=GROQ_API_KEY, #type: ignore
-    temperature=0
 )
 
 prompt = ChatPromptTemplate.from_messages([
